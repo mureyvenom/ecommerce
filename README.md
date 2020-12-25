@@ -1,2 +1,2 @@
 # ecommerce
-A working ecommerce template
+A working ecommerce template using php, javascript and mysql
