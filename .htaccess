@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^admin/ - [L,NC]
+RewriteRule ^app/ - [L,NC]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
